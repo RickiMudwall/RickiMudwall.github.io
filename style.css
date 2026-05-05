@@ -267,6 +267,37 @@ footer {
   margin: 4px 4px 0 0;
 }
 
+.top-button {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: #1e3a8a;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.25);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+}
+
+.top-button.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.top-button:hover {
+  background: #0f172a;
+  transform: translateY(-3px);
+}
+
 @media (max-width: 700px) {
   header h1 {
     font-size: 32px;
