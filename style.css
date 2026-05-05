@@ -22,15 +22,13 @@ header {
 }
 
 .profile-photo {
-  width: 280px;
-  height: 390px;
-  border-radius: 30px;
-  object-fit: cover;
-  object-position: center;
+  width: 230px;
+  height: auto;
+  border-radius: 28px;
   background: white;
   padding: 0;
   border: 6px solid white;
-  box-shadow: 0 20px 46px rgba(0, 0, 0, 0.34);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.32);
 }
 
 .hero-container {
@@ -459,7 +457,7 @@ footer {
   }
 
   .profile-photo {
-    width: 190px;
-    height: 265px;
+    width: 170px;
+    height: auto;
   }
 }
